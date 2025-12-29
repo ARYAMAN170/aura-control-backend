@@ -8,11 +8,11 @@ This is the server-side application for the Control Room User Management System.
 
 ## 🚀 Tech Stack
 * **Runtime:** Node.js
-* **Framework:** Express.js [cite: 23]
-* **Database:** MongoDB Atlas (Cloud-hosted) [cite: 24, 136]
-* **Authentication:** JWT (JSON Web Tokens) [cite: 26]
-* **Security:** Bcrypt (Password Hashing), CORS, Helmet [cite: 27, 130]
-* **Deployment:** Render [cite: 28]
+* **Framework:** Express.js 
+* **Database:** MongoDB Atlas (Cloud-hosted) 
+* **Authentication:** JWT (JSON Web Tokens) 
+* **Security:** Bcrypt (Password Hashing), CORS, Helmet 
+* **Deployment:** Render 
 
 ## 🔐 Security & Architecture
 * **Password Hashing:** Uses `bcrypt` to salt and hash passwords before storage[cite: 53].
@@ -92,4 +92,5 @@ This is the server-side application for the Control Room User Management System.
 
 ---
 *Submitted by: Aryaman Singh for Purple Merit Technologies* 
+
 
