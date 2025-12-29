@@ -4,21 +4,21 @@
 This is the server-side application for the Control Room User Management System. It implements a RESTful API with secure authentication, role-based authorization, and database management for user accounts. [cite_start]It is built to handle user lifecycles, including creation, updates, and administrative status controls[cite: 17, 31].
 
 **Live API Base URL:** https://control-room-backend.onrender.com  
-[cite_start]**API Documentation:** [Link to Postman Collection/Swagger] [cite: 147]
+**API Documentation:** [Link to Postman Collection/Swagger] [cite: 147]
 
 ## 🚀 Tech Stack
 * **Runtime:** Node.js
-* [cite_start]**Framework:** Express.js [cite: 23]
-* [cite_start]**Database:** MongoDB Atlas (Cloud-hosted) [cite: 24, 136]
-* [cite_start]**Authentication:** JWT (JSON Web Tokens) [cite: 26]
-* [cite_start]**Security:** Bcrypt (Password Hashing), CORS, Helmet [cite: 27, 130]
-* [cite_start]**Deployment:** Render [cite: 28]
+* **Framework:** Express.js [cite: 23]
+* **Database:** MongoDB Atlas (Cloud-hosted) [cite: 24, 136]
+* **Authentication:** JWT (JSON Web Tokens) [cite: 26]
+* **Security:** Bcrypt (Password Hashing), CORS, Helmet [cite: 27, 130]
+* **Deployment:** Render [cite: 28]
 
 ## 🔐 Security & Architecture
-* [cite_start]**Password Hashing:** Uses `bcrypt` to salt and hash passwords before storage[cite: 53].
-* [cite_start]**JWT Authentication:** Stateless authentication strategies using Bearer tokens[cite: 128].
-* [cite_start]**RBAC Middleware:** Custom middleware to verify `admin` vs `user` roles before granting access to sensitive endpoints[cite: 55].
-* [cite_start]**Validation:** Input validation on all API endpoints to prevent malformed data injection[cite: 56].
+* **Password Hashing:** Uses `bcrypt` to salt and hash passwords before storage[cite: 53].
+* **JWT Authentication:** Stateless authentication strategies using Bearer tokens[cite: 128].
+* **RBAC Middleware:** Custom middleware to verify `admin` vs `user` roles before granting access to sensitive endpoints[cite: 55].
+* **Validation:** Input validation on all API endpoints to prevent malformed data injection[cite: 56].
 
 ## 🛠️ Setup Instructions
 
@@ -88,7 +88,8 @@ This is the server-side application for the Control Room User Management System.
 3.  Connect the repository and select the `backend` folder as the root.
 4.  **Build Command:** `npm install`
 5.  **Start Command:** `npm start`
-6.  [cite_start]Add the environment variables (`MONGO_URI`, `JWT_SECRET`) in the Render dashboard[cite: 136, 156].
+6.  Add the environment variables (`MONGO_URI`, `JWT_SECRET`) in the Render dashboard.
 
 ---
-[cite_start]*Submitted by: Aryaman Singh for Purple Merit Technologies* [cite: 11]
+*Submitted by: Aryaman Singh for Purple Merit Technologies* 
+
